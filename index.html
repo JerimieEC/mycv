@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>portfolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="material-icons">&#xe5d2;</i>
+    </label>
+    <label class="logo">JEC </label>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+   </nav>
+
+    <section id="home">
+        <div class="block"><div class="home">
+        <h1>Hello, I am Jerimie</h1>
+        <p>Using HTML and CSS, I will create my first website because I inspired in other <br>developer to pursue their dreams</p>
+        <button onclick="location.href = 'documents/CV jerimie.pdf';"> Discover me
+        </button>
+    </div></div>
+    </section>
+    
+    <section id="about">
+        
+        <div class="block"><div class="container"></div>
+            <div class="about-me">
+                <h1>About me</h1> 
+            </div>
+         
+        <div class="circle">
+            <img src="gradpic.png">
+        </div>
+        <div class="paragraph">
+            <p>I'am a fresh graduate in Bachelor of Science in Information Technology. I pursue this field because<br>
+                I inspired to other developer and motivate myself to study about programming language<br> like HTML, CSS, and JavaScript.
+                And now, I create of my portfolio using programming language that I know. 
+            </p>
+                </div>
+                <div class="group">
+        <div class="circle1">
+            <p>Jeremiah 29:11</p>
+           
+        </div>
+        <div class="circle2">
+            <p>Romans 14:1</p>
+        </div>
+        <div class="circle3">
+            <p>John 6:35</p>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="service">
+        <div class="block"><div class="conts">
+        <div class="service-container">
+        <h1>Our Service</h1>
+        <p>This is my service to create the website, using my skill of programming language<br>
+             like HTML, CSS, and JavaScript. I accept website project for freelance.</p>
+            </div>
+            <div class="box-card">
+                <div class="box">
+                    <img src="html.png" alt="">
+                    <h3>HTML</h3>
+                </div>
+                <div class="box">
+                    <img src="css.jpg" alt="">
+                    <h3>CSS</h3>
+                </div>
+                <div class="box">
+                    <img src="script.png" alt="">
+                    <h3>JAVASCRIPT</h3>
+                </div>
+            </div>
+        </div></div>
+    </section>
+    
+    <section id="contact">
+      <div class="block"><div class="footer-conts">
+            <h1>Contact</h1>
+         
+        </div>
+        <div class="social">
+            <p>Thank you for your seeing my website</p>
+        </div>
+        <div class="media">       
+             <ul>
+            <li></li><i class="fa fa-facebook-f"></i></li>
+            <li></li><i class="fa fa-instagram"></i></li>
+            <li></li><i class="fa fa-google"></i></li>
+            
+        </ul>
+    </div>
+    <div class="foots">
+        <p>copyright &copy;2023 Jerimie. Design by <span>JEC</span></p>
+    </div></div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="jquery.smoove.js"></script>
+    
+    <script>
+        $('.block').smoove({
+            offset: '50%'
+        });
+        
+    </script>
+</body> 
+</html>
